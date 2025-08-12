@@ -16,6 +16,6 @@ public class WebHooks {
 
     @After
     public void tearDown(){
-        driver.quit();
+        DriverManager.quitDriver();
     }
 }
